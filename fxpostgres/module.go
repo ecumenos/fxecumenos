@@ -1,4 +1,4 @@
-package postgresfx
+package fxpostgres
 
 import (
 	"context"
