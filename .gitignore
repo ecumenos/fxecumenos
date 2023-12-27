@@ -19,3 +19,7 @@
 
 # Go workspace file
 go.work
+
+# Don't ignore this file itself, or other specific dotfiles
+!.gitignore
+!.github/
