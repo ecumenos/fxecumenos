@@ -4,7 +4,7 @@ go 1.21.5
 
 require (
 	github.com/blang/semver/v4 v4.0.0
-	github.com/ecumenos/go-toolkit v0.0.2
+	github.com/ecumenos/go-toolkit v0.0.3
 	github.com/golang-migrate/migrate/v4 v4.17.0
 	github.com/jackc/pgx/v4 v4.18.1
 	github.com/stretchr/testify v1.8.4
@@ -14,7 +14,6 @@ require (
 
 require (
 	github.com/bwmarrin/snowflake v0.3.0 // indirect
-	github.com/carlmjohnson/versioninfo v0.22.5 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/google/uuid v1.5.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
