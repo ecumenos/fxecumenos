@@ -3,7 +3,7 @@ package postgresfx
 import (
 	"context"
 
-	"github.com/ecumenos/fxecumenos/postgresfx/postgres"
+	"github.com/ecumenos/fxecumenos/fxpostgres/postgres"
 	"github.com/jackc/pgx/v4"
 	"go.uber.org/fx"
 )

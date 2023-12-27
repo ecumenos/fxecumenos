@@ -1,8 +1,8 @@
-package loggerfx
+package fxlogger
 
 import (
 	"github.com/ecumenos/fxecumenos"
-	"github.com/ecumenos/fxecumenos/loggerfx/logger"
+	"github.com/ecumenos/fxecumenos/fxlogger/logger"
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxevent"
 	"go.uber.org/zap"
