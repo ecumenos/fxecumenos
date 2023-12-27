@@ -3,7 +3,7 @@ package logger_test
 import (
 	"log"
 
-	"github.com/ecumenos/fxecumenos/loggerfx/logger"
+	"github.com/ecumenos/fxecumenos/fxlogger/logger"
 )
 
 func ExampleNewDevelopmentLogger() {
