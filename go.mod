@@ -3,6 +3,7 @@ module github.com/ecumenos/fxecumenos
 go 1.21.5
 
 require (
+	github.com/blang/semver/v4 v4.0.0
 	github.com/ecumenos/go-toolkit v0.0.2
 	github.com/golang-migrate/migrate/v4 v4.17.0
 	github.com/jackc/pgx/v4 v4.18.1
