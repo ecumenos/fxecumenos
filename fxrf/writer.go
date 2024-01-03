@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"strings"
 	"time"
 
 	"github.com/ecumenos/fxecumenos"
@@ -236,6 +235,6 @@ func (w *writer) getMetadata(ctx context.Context) (*Metadata, error) {
 		RequestID: contextutils.GetValueFromContext(ctx, contextutils.RequestIDKey),
 		Timestamp: timeutils.TimeToString(time.Now()),
 		Duration:  duration,
-		Version:   strings.Join(w.appVersion.Build, "."),
+		Version:   string(w.appVersion),
 	}, nil
 }
